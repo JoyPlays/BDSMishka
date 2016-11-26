@@ -1,0 +1,859 @@
+fileFormatVersion: 2
+guid: b8dce0c079dd47a4090087cebc491025
+timeCreated: 1480180519
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Base
+    100004: //RootNode
+    100006: BearFull
+    100008: Belly
+    100010: Belly_end
+    100012: Butt
+    100014: Butt.002
+    100016: Butt.002_end
+    100018: Head
+    100020: L_Arm
+    100022: L_Chest
+    100024: L_Chest_end
+    100026: L_Ear
+    100028: L_Ear.001
+    100030: L_Ear.001_end
+    100032: L_Ear_Connect
+    100034: L_Elbow_IK
+    100036: L_Elbow_IK_end
+    100038: L_Feet
+    100040: L_Feet_end
+    100042: L_Feet_IK
+    100044: L_Hand
+    100046: L_Hand_end
+    100048: L_Hand_IK
+    100050: L_Knee_IK
+    100052: L_Knee_IK_end
+    100054: L_Limb
+    100056: L_Pelvis
+    100058: L_Shoulder
+    100060: R_Arm
+    100062: R_Chest
+    100064: R_Chest_end
+    100066: R_Ear
+    100068: R_Ear.001
+    100070: R_Ear.001_end
+    100072: R_Ear_Connect
+    100074: R_Elbow_IK
+    100076: R_Elbow_IK_end
+    100078: R_Feet
+    100080: R_Feet_end
+    100082: R_Feet_IK
+    100084: R_Hand
+    100086: R_Hand_end
+    100088: R_Hand_IK
+    100090: R_Knee_IK
+    100092: R_Knee_IK_end
+    100094: R_Limb
+    100096: R_Pelvis
+    100098: R_Shoulder
+    100100: Spine1
+    100102: Spine2
+    100104: Spine3
+    400000: Armature
+    400002: Base
+    400004: //RootNode
+    400006: BearFull
+    400008: Belly
+    400010: Belly_end
+    400012: Butt
+    400014: Butt.002
+    400016: Butt.002_end
+    400018: Head
+    400020: L_Arm
+    400022: L_Chest
+    400024: L_Chest_end
+    400026: L_Ear
+    400028: L_Ear.001
+    400030: L_Ear.001_end
+    400032: L_Ear_Connect
+    400034: L_Elbow_IK
+    400036: L_Elbow_IK_end
+    400038: L_Feet
+    400040: L_Feet_end
+    400042: L_Feet_IK
+    400044: L_Hand
+    400046: L_Hand_end
+    400048: L_Hand_IK
+    400050: L_Knee_IK
+    400052: L_Knee_IK_end
+    400054: L_Limb
+    400056: L_Pelvis
+    400058: L_Shoulder
+    400060: R_Arm
+    400062: R_Chest
+    400064: R_Chest_end
+    400066: R_Ear
+    400068: R_Ear.001
+    400070: R_Ear.001_end
+    400072: R_Ear_Connect
+    400074: R_Elbow_IK
+    400076: R_Elbow_IK_end
+    400078: R_Feet
+    400080: R_Feet_end
+    400082: R_Feet_IK
+    400084: R_Hand
+    400086: R_Hand_end
+    400088: R_Hand_IK
+    400090: R_Knee_IK
+    400092: R_Knee_IK_end
+    400094: R_Limb
+    400096: R_Pelvis
+    400098: R_Shoulder
+    400100: Spine1
+    400102: Spine2
+    400104: Spine3
+    4300000: BearFull
+    7400000: Armature|ArmatureAction
+    7400002: Armature|EmptyAction
+    7400004: Idle
+    7400006: Walk
+    7400008: Jump
+    9500000: //RootNode
+    13700000: BearFull
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: Armature/Base
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 57
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Base
+        weight: 1
+      - path: Armature/Base/Butt
+        weight: 1
+      - path: Armature/Base/Butt/Belly
+        weight: 1
+      - path: Armature/Base/Butt/Belly/Belly_end
+        weight: 1
+      - path: Armature/Base/Butt/Butt.002
+        weight: 1
+      - path: Armature/Base/Butt/Butt.002/Butt.002_end
+        weight: 1
+      - path: Armature/Base/Butt/L_Pelvis
+        weight: 1
+      - path: Armature/Base/Butt/L_Pelvis/L_Limb
+        weight: 1
+      - path: Armature/Base/Butt/L_Pelvis/L_Limb/L_Feet
+        weight: 1
+      - path: Armature/Base/Butt/L_Pelvis/L_Limb/L_Feet/L_Feet_end
+        weight: 1
+      - path: Armature/Base/Butt/R_Pelvis
+        weight: 1
+      - path: Armature/Base/Butt/R_Pelvis/R_Limb
+        weight: 1
+      - path: Armature/Base/Butt/R_Pelvis/R_Limb/R_Feet
+        weight: 1
+      - path: Armature/Base/Butt/R_Pelvis/R_Limb/R_Feet/R_Feet_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/L_Chest
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/L_Chest/L_Chest_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/R_Chest
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/R_Chest/R_Chest_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/L_Ear_Connect
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/L_Ear_Connect/L_Ear
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/L_Ear_Connect/L_Ear/L_Ear.001
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/L_Ear_Connect/L_Ear/L_Ear.001/L_Ear.001_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/R_Ear_Connect
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/R_Ear_Connect/R_Ear
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/R_Ear_Connect/R_Ear/R_Ear.001
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/R_Ear_Connect/R_Ear/R_Ear.001/R_Ear.001_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/L_Shoulder
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/L_Shoulder/L_Arm
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/L_Shoulder/L_Arm/L_Hand
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/L_Shoulder/L_Arm/L_Hand/L_Hand_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/R_Shoulder
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/R_Shoulder/R_Arm
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/R_Shoulder/R_Arm/R_Hand
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/R_Shoulder/R_Arm/R_Hand/R_Hand_end
+        weight: 1
+      - path: Armature/Base/L_Feet_IK
+        weight: 1
+      - path: Armature/Base/L_Feet_IK/L_Knee_IK
+        weight: 1
+      - path: Armature/Base/L_Feet_IK/L_Knee_IK/L_Knee_IK_end
+        weight: 1
+      - path: Armature/Base/L_Hand_IK
+        weight: 1
+      - path: Armature/Base/L_Hand_IK/L_Elbow_IK
+        weight: 1
+      - path: Armature/Base/L_Hand_IK/L_Elbow_IK/L_Elbow_IK_end
+        weight: 1
+      - path: Armature/Base/R_Feet_IK
+        weight: 1
+      - path: Armature/Base/R_Feet_IK/R_Knee_IK
+        weight: 1
+      - path: Armature/Base/R_Feet_IK/R_Knee_IK/R_Knee_IK_end
+        weight: 1
+      - path: Armature/Base/R_Hand_IK
+        weight: 1
+      - path: Armature/Base/R_Hand_IK/R_Elbow_IK
+        weight: 1
+      - path: Armature/Base/R_Hand_IK/R_Elbow_IK/R_Elbow_IK_end
+        weight: 1
+      - path: BearFull
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|EmptyAction
+      takeName: Armature|EmptyAction
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Base
+        weight: 1
+      - path: Armature/Base/Butt
+        weight: 1
+      - path: Armature/Base/Butt/Belly
+        weight: 1
+      - path: Armature/Base/Butt/Belly/Belly_end
+        weight: 1
+      - path: Armature/Base/Butt/Butt.002
+        weight: 1
+      - path: Armature/Base/Butt/Butt.002/Butt.002_end
+        weight: 1
+      - path: Armature/Base/Butt/L_Pelvis
+        weight: 1
+      - path: Armature/Base/Butt/L_Pelvis/L_Limb
+        weight: 1
+      - path: Armature/Base/Butt/L_Pelvis/L_Limb/L_Feet
+        weight: 1
+      - path: Armature/Base/Butt/L_Pelvis/L_Limb/L_Feet/L_Feet_end
+        weight: 1
+      - path: Armature/Base/Butt/R_Pelvis
+        weight: 1
+      - path: Armature/Base/Butt/R_Pelvis/R_Limb
+        weight: 1
+      - path: Armature/Base/Butt/R_Pelvis/R_Limb/R_Feet
+        weight: 1
+      - path: Armature/Base/Butt/R_Pelvis/R_Limb/R_Feet/R_Feet_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/L_Chest
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/L_Chest/L_Chest_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/R_Chest
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/R_Chest/R_Chest_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/L_Ear_Connect
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/L_Ear_Connect/L_Ear
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/L_Ear_Connect/L_Ear/L_Ear.001
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/L_Ear_Connect/L_Ear/L_Ear.001/L_Ear.001_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/R_Ear_Connect
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/R_Ear_Connect/R_Ear
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/R_Ear_Connect/R_Ear/R_Ear.001
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/R_Ear_Connect/R_Ear/R_Ear.001/R_Ear.001_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/L_Shoulder
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/L_Shoulder/L_Arm
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/L_Shoulder/L_Arm/L_Hand
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/L_Shoulder/L_Arm/L_Hand/L_Hand_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/R_Shoulder
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/R_Shoulder/R_Arm
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/R_Shoulder/R_Arm/R_Hand
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/R_Shoulder/R_Arm/R_Hand/R_Hand_end
+        weight: 1
+      - path: Armature/Base/L_Feet_IK
+        weight: 1
+      - path: Armature/Base/L_Feet_IK/L_Knee_IK
+        weight: 1
+      - path: Armature/Base/L_Feet_IK/L_Knee_IK/L_Knee_IK_end
+        weight: 1
+      - path: Armature/Base/L_Hand_IK
+        weight: 1
+      - path: Armature/Base/L_Hand_IK/L_Elbow_IK
+        weight: 1
+      - path: Armature/Base/L_Hand_IK/L_Elbow_IK/L_Elbow_IK_end
+        weight: 1
+      - path: Armature/Base/R_Feet_IK
+        weight: 1
+      - path: Armature/Base/R_Feet_IK/R_Knee_IK
+        weight: 1
+      - path: Armature/Base/R_Feet_IK/R_Knee_IK/R_Knee_IK_end
+        weight: 1
+      - path: Armature/Base/R_Hand_IK
+        weight: 1
+      - path: Armature/Base/R_Hand_IK/R_Elbow_IK
+        weight: 1
+      - path: Armature/Base/R_Hand_IK/R_Elbow_IK/R_Elbow_IK_end
+        weight: 1
+      - path: BearFull
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Base
+        weight: 1
+      - path: Armature/Base/Butt
+        weight: 1
+      - path: Armature/Base/Butt/Belly
+        weight: 1
+      - path: Armature/Base/Butt/Belly/Belly_end
+        weight: 1
+      - path: Armature/Base/Butt/Butt.002
+        weight: 1
+      - path: Armature/Base/Butt/Butt.002/Butt.002_end
+        weight: 1
+      - path: Armature/Base/Butt/L_Pelvis
+        weight: 1
+      - path: Armature/Base/Butt/L_Pelvis/L_Limb
+        weight: 1
+      - path: Armature/Base/Butt/L_Pelvis/L_Limb/L_Feet
+        weight: 1
+      - path: Armature/Base/Butt/L_Pelvis/L_Limb/L_Feet/L_Feet_end
+        weight: 1
+      - path: Armature/Base/Butt/R_Pelvis
+        weight: 1
+      - path: Armature/Base/Butt/R_Pelvis/R_Limb
+        weight: 1
+      - path: Armature/Base/Butt/R_Pelvis/R_Limb/R_Feet
+        weight: 1
+      - path: Armature/Base/Butt/R_Pelvis/R_Limb/R_Feet/R_Feet_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/L_Chest
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/L_Chest/L_Chest_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/R_Chest
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/R_Chest/R_Chest_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/L_Ear_Connect
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/L_Ear_Connect/L_Ear
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/L_Ear_Connect/L_Ear/L_Ear.001
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/L_Ear_Connect/L_Ear/L_Ear.001/L_Ear.001_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/R_Ear_Connect
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/R_Ear_Connect/R_Ear
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/R_Ear_Connect/R_Ear/R_Ear.001
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/R_Ear_Connect/R_Ear/R_Ear.001/R_Ear.001_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/L_Shoulder
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/L_Shoulder/L_Arm
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/L_Shoulder/L_Arm/L_Hand
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/L_Shoulder/L_Arm/L_Hand/L_Hand_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/R_Shoulder
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/R_Shoulder/R_Arm
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/R_Shoulder/R_Arm/R_Hand
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/R_Shoulder/R_Arm/R_Hand/R_Hand_end
+        weight: 1
+      - path: Armature/Base/L_Feet_IK
+        weight: 1
+      - path: Armature/Base/L_Feet_IK/L_Knee_IK
+        weight: 1
+      - path: Armature/Base/L_Feet_IK/L_Knee_IK/L_Knee_IK_end
+        weight: 1
+      - path: Armature/Base/L_Hand_IK
+        weight: 1
+      - path: Armature/Base/L_Hand_IK/L_Elbow_IK
+        weight: 1
+      - path: Armature/Base/L_Hand_IK/L_Elbow_IK/L_Elbow_IK_end
+        weight: 1
+      - path: Armature/Base/R_Feet_IK
+        weight: 1
+      - path: Armature/Base/R_Feet_IK/R_Knee_IK
+        weight: 1
+      - path: Armature/Base/R_Feet_IK/R_Knee_IK/R_Knee_IK_end
+        weight: 1
+      - path: Armature/Base/R_Hand_IK
+        weight: 1
+      - path: Armature/Base/R_Hand_IK/R_Elbow_IK
+        weight: 1
+      - path: Armature/Base/R_Hand_IK/R_Elbow_IK/R_Elbow_IK_end
+        weight: 1
+      - path: BearFull
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Armature|ArmatureAction
+      firstFrame: 16
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Base
+        weight: 1
+      - path: Armature/Base/Butt
+        weight: 1
+      - path: Armature/Base/Butt/Belly
+        weight: 1
+      - path: Armature/Base/Butt/Belly/Belly_end
+        weight: 1
+      - path: Armature/Base/Butt/Butt.002
+        weight: 1
+      - path: Armature/Base/Butt/Butt.002/Butt.002_end
+        weight: 1
+      - path: Armature/Base/Butt/L_Pelvis
+        weight: 1
+      - path: Armature/Base/Butt/L_Pelvis/L_Limb
+        weight: 1
+      - path: Armature/Base/Butt/L_Pelvis/L_Limb/L_Feet
+        weight: 1
+      - path: Armature/Base/Butt/L_Pelvis/L_Limb/L_Feet/L_Feet_end
+        weight: 1
+      - path: Armature/Base/Butt/R_Pelvis
+        weight: 1
+      - path: Armature/Base/Butt/R_Pelvis/R_Limb
+        weight: 1
+      - path: Armature/Base/Butt/R_Pelvis/R_Limb/R_Feet
+        weight: 1
+      - path: Armature/Base/Butt/R_Pelvis/R_Limb/R_Feet/R_Feet_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/L_Chest
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/L_Chest/L_Chest_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/R_Chest
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/R_Chest/R_Chest_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/L_Ear_Connect
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/L_Ear_Connect/L_Ear
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/L_Ear_Connect/L_Ear/L_Ear.001
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/L_Ear_Connect/L_Ear/L_Ear.001/L_Ear.001_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/R_Ear_Connect
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/R_Ear_Connect/R_Ear
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/R_Ear_Connect/R_Ear/R_Ear.001
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/R_Ear_Connect/R_Ear/R_Ear.001/R_Ear.001_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/L_Shoulder
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/L_Shoulder/L_Arm
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/L_Shoulder/L_Arm/L_Hand
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/L_Shoulder/L_Arm/L_Hand/L_Hand_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/R_Shoulder
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/R_Shoulder/R_Arm
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/R_Shoulder/R_Arm/R_Hand
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/R_Shoulder/R_Arm/R_Hand/R_Hand_end
+        weight: 1
+      - path: Armature/Base/L_Feet_IK
+        weight: 1
+      - path: Armature/Base/L_Feet_IK/L_Knee_IK
+        weight: 1
+      - path: Armature/Base/L_Feet_IK/L_Knee_IK/L_Knee_IK_end
+        weight: 1
+      - path: Armature/Base/L_Hand_IK
+        weight: 1
+      - path: Armature/Base/L_Hand_IK/L_Elbow_IK
+        weight: 1
+      - path: Armature/Base/L_Hand_IK/L_Elbow_IK/L_Elbow_IK_end
+        weight: 1
+      - path: Armature/Base/R_Feet_IK
+        weight: 1
+      - path: Armature/Base/R_Feet_IK/R_Knee_IK
+        weight: 1
+      - path: Armature/Base/R_Feet_IK/R_Knee_IK/R_Knee_IK_end
+        weight: 1
+      - path: Armature/Base/R_Hand_IK
+        weight: 1
+      - path: Armature/Base/R_Hand_IK/R_Elbow_IK
+        weight: 1
+      - path: Armature/Base/R_Hand_IK/R_Elbow_IK/R_Elbow_IK_end
+        weight: 1
+      - path: BearFull
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: Armature|ArmatureAction
+      firstFrame: 37
+      lastFrame: 57
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Base
+        weight: 1
+      - path: Armature/Base/Butt
+        weight: 1
+      - path: Armature/Base/Butt/Belly
+        weight: 1
+      - path: Armature/Base/Butt/Belly/Belly_end
+        weight: 1
+      - path: Armature/Base/Butt/Butt.002
+        weight: 1
+      - path: Armature/Base/Butt/Butt.002/Butt.002_end
+        weight: 1
+      - path: Armature/Base/Butt/L_Pelvis
+        weight: 1
+      - path: Armature/Base/Butt/L_Pelvis/L_Limb
+        weight: 1
+      - path: Armature/Base/Butt/L_Pelvis/L_Limb/L_Feet
+        weight: 1
+      - path: Armature/Base/Butt/L_Pelvis/L_Limb/L_Feet/L_Feet_end
+        weight: 1
+      - path: Armature/Base/Butt/R_Pelvis
+        weight: 1
+      - path: Armature/Base/Butt/R_Pelvis/R_Limb
+        weight: 1
+      - path: Armature/Base/Butt/R_Pelvis/R_Limb/R_Feet
+        weight: 1
+      - path: Armature/Base/Butt/R_Pelvis/R_Limb/R_Feet/R_Feet_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/L_Chest
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/L_Chest/L_Chest_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/R_Chest
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/R_Chest/R_Chest_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/L_Ear_Connect
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/L_Ear_Connect/L_Ear
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/L_Ear_Connect/L_Ear/L_Ear.001
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/L_Ear_Connect/L_Ear/L_Ear.001/L_Ear.001_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/R_Ear_Connect
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/R_Ear_Connect/R_Ear
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/R_Ear_Connect/R_Ear/R_Ear.001
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/Head/R_Ear_Connect/R_Ear/R_Ear.001/R_Ear.001_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/L_Shoulder
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/L_Shoulder/L_Arm
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/L_Shoulder/L_Arm/L_Hand
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/L_Shoulder/L_Arm/L_Hand/L_Hand_end
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/R_Shoulder
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/R_Shoulder/R_Arm
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/R_Shoulder/R_Arm/R_Hand
+        weight: 1
+      - path: Armature/Base/Butt/Spine1/Spine2/Spine3/R_Shoulder/R_Arm/R_Hand/R_Hand_end
+        weight: 1
+      - path: Armature/Base/L_Feet_IK
+        weight: 1
+      - path: Armature/Base/L_Feet_IK/L_Knee_IK
+        weight: 1
+      - path: Armature/Base/L_Feet_IK/L_Knee_IK/L_Knee_IK_end
+        weight: 1
+      - path: Armature/Base/L_Hand_IK
+        weight: 1
+      - path: Armature/Base/L_Hand_IK/L_Elbow_IK
+        weight: 1
+      - path: Armature/Base/L_Hand_IK/L_Elbow_IK/L_Elbow_IK_end
+        weight: 1
+      - path: Armature/Base/R_Feet_IK
+        weight: 1
+      - path: Armature/Base/R_Feet_IK/R_Knee_IK
+        weight: 1
+      - path: Armature/Base/R_Feet_IK/R_Knee_IK/R_Knee_IK_end
+        weight: 1
+      - path: Armature/Base/R_Hand_IK
+        weight: 1
+      - path: Armature/Base/R_Hand_IK/R_Elbow_IK
+        weight: 1
+      - path: Armature/Base/R_Hand_IK/R_Elbow_IK/R_Elbow_IK_end
+        weight: 1
+      - path: BearFull
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Base
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
