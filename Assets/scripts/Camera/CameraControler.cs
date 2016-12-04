@@ -11,7 +11,6 @@ public class CameraControler : MonoBehaviour
 
 	private Vector3 offset;
 
-	// Use this for initialization
 	void Start()
 	{
 		offset = transform.position - target.position;

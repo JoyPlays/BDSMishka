@@ -8,6 +8,8 @@ public enum Directions
 
 public class PlayerControler : MonoBehaviour
 {
+	public static int Lives = 1;
+
 	[Header("Main parameters")]
 	[Range(10, 20)]
 	public float speed = 15;
@@ -19,7 +21,7 @@ public class PlayerControler : MonoBehaviour
 	[Header("Jump")]
 	public LayerMask groundLayer;
 	public Transform groundCheck;
-	[Range(50, 3000)]
+	[Range(50, 500)]
 	public float jumpSpeed = 200;
 
 	private const float checkRadius = 0.2f;
@@ -27,7 +29,6 @@ public class PlayerControler : MonoBehaviour
 	private Rigidbody rigidbodyPlayer;
 	Directions direction = Directions.Right;
 
-	// Use this for initialization
 	void Start()
 	{
 		rigidbodyPlayer = GetComponent<Rigidbody>();
@@ -35,12 +36,6 @@ public class PlayerControler : MonoBehaviour
 		{
 			Debug.LogError("Plaey without rigidbody!");
 		}
-	}
-
-	// Update is called once per frame
-	void Update()
-	{
-
 	}
 
 	public void FixedUpdate()
