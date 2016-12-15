@@ -310,6 +310,12 @@ ModelImporter:
     4300080: Cube
     4300082: Sphere.001
     4300084: Sphere
+    7400000: Armature|Death
+    7400002: Armature|Fight
+    7400004: Armature|Idle
+    7400006: Armature|Walk_Run
+    9500000: //RootNode
+    13700000: 1stNPC
   materials:
     importMaterials: 0
     materialName: 0
@@ -324,13 +330,501 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Death
+      takeName: Armature|Death
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 1stNPC
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bottom
+        weight: 1
+      - path: Armature/Bone/Bottom/Belly
+        weight: 1
+      - path: Armature/Bone/Bottom/Belly/Belly_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Butt
+        weight: 1
+      - path: Armature/Bone/Bottom/Butt/Butt_end
+        weight: 1
+      - path: Armature/Bone/Bottom/L_Pelvis
+        weight: 1
+      - path: Armature/Bone/Bottom/L_Pelvis/L_Limb
+        weight: 1
+      - path: Armature/Bone/Bottom/L_Pelvis/L_Limb/L_Leg
+        weight: 1
+      - path: Armature/Bone/Bottom/L_Pelvis/L_Limb/L_Leg/L_Leg_end
+        weight: 1
+      - path: Armature/Bone/Bottom/R_Pelvis
+        weight: 1
+      - path: Armature/Bone/Bottom/R_Pelvis/R_Limb
+        weight: 1
+      - path: Armature/Bone/Bottom/R_Pelvis/R_Limb/R_Leg
+        weight: 1
+      - path: Armature/Bone/Bottom/R_Pelvis/R_Limb/R_Leg/R_Leg_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/BackKnot
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/BackKnot/BackKnot_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/L_Ear_Connection
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/L_Ear_Connection/L_Ear_Base
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/L_Ear_Connection/L_Ear_Base/L_Ear_Top
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/L_Ear_Connection/L_Ear_Base/L_Ear_Top/L_Ear_Top_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/Mouth_Connector
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/Mouth_Connector/Stick
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/Mouth_Connector/Stick/Stick_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/R_Ear_Connection
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/R_Ear_Connection/R_Ear_Base
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/R_Ear_Connection/R_Ear_Base/R_Ear_Top
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/R_Ear_Connection/R_Ear_Base/R_Ear_Top/R_Ear_Top_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/L_Shoulder
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/L_Shoulder/L_Arm
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/L_Shoulder/L_Arm/L_Hand
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/L_Shoulder/L_Arm/L_Hand/L_Hand_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/R_Shoulder
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/R_Shoulder/R_Arm
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/R_Shoulder/R_Arm/R_Hand
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/R_Shoulder/R_Arm/R_Hand/R_Hand_end
+        weight: 1
+      - path: Armature/Bone/L_Leg_IK
+        weight: 1
+      - path: Armature/Bone/L_Leg_IK/L_Limb_Control
+        weight: 1
+      - path: Armature/Bone/L_Leg_IK/L_Limb_Control/L_Limb_Control_end
+        weight: 1
+      - path: Armature/Bone/R_Leg_IK
+        weight: 1
+      - path: Armature/Bone/R_Leg_IK/R_Limb_Control
+        weight: 1
+      - path: Armature/Bone/R_Leg_IK/R_Limb_Control/R_Limb_Control_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Fight
+      takeName: Armature|Fight
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 1stNPC
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bottom
+        weight: 1
+      - path: Armature/Bone/Bottom/Belly
+        weight: 1
+      - path: Armature/Bone/Bottom/Belly/Belly_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Butt
+        weight: 1
+      - path: Armature/Bone/Bottom/Butt/Butt_end
+        weight: 1
+      - path: Armature/Bone/Bottom/L_Pelvis
+        weight: 1
+      - path: Armature/Bone/Bottom/L_Pelvis/L_Limb
+        weight: 1
+      - path: Armature/Bone/Bottom/L_Pelvis/L_Limb/L_Leg
+        weight: 1
+      - path: Armature/Bone/Bottom/L_Pelvis/L_Limb/L_Leg/L_Leg_end
+        weight: 1
+      - path: Armature/Bone/Bottom/R_Pelvis
+        weight: 1
+      - path: Armature/Bone/Bottom/R_Pelvis/R_Limb
+        weight: 1
+      - path: Armature/Bone/Bottom/R_Pelvis/R_Limb/R_Leg
+        weight: 1
+      - path: Armature/Bone/Bottom/R_Pelvis/R_Limb/R_Leg/R_Leg_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/BackKnot
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/BackKnot/BackKnot_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/L_Ear_Connection
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/L_Ear_Connection/L_Ear_Base
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/L_Ear_Connection/L_Ear_Base/L_Ear_Top
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/L_Ear_Connection/L_Ear_Base/L_Ear_Top/L_Ear_Top_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/Mouth_Connector
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/Mouth_Connector/Stick
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/Mouth_Connector/Stick/Stick_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/R_Ear_Connection
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/R_Ear_Connection/R_Ear_Base
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/R_Ear_Connection/R_Ear_Base/R_Ear_Top
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/R_Ear_Connection/R_Ear_Base/R_Ear_Top/R_Ear_Top_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/L_Shoulder
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/L_Shoulder/L_Arm
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/L_Shoulder/L_Arm/L_Hand
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/L_Shoulder/L_Arm/L_Hand/L_Hand_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/R_Shoulder
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/R_Shoulder/R_Arm
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/R_Shoulder/R_Arm/R_Hand
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/R_Shoulder/R_Arm/R_Hand/R_Hand_end
+        weight: 1
+      - path: Armature/Bone/L_Leg_IK
+        weight: 1
+      - path: Armature/Bone/L_Leg_IK/L_Limb_Control
+        weight: 1
+      - path: Armature/Bone/L_Leg_IK/L_Limb_Control/L_Limb_Control_end
+        weight: 1
+      - path: Armature/Bone/R_Leg_IK
+        weight: 1
+      - path: Armature/Bone/R_Leg_IK/R_Limb_Control
+        weight: 1
+      - path: Armature/Bone/R_Leg_IK/R_Limb_Control/R_Limb_Control_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 1stNPC
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bottom
+        weight: 1
+      - path: Armature/Bone/Bottom/Belly
+        weight: 1
+      - path: Armature/Bone/Bottom/Belly/Belly_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Butt
+        weight: 1
+      - path: Armature/Bone/Bottom/Butt/Butt_end
+        weight: 1
+      - path: Armature/Bone/Bottom/L_Pelvis
+        weight: 1
+      - path: Armature/Bone/Bottom/L_Pelvis/L_Limb
+        weight: 1
+      - path: Armature/Bone/Bottom/L_Pelvis/L_Limb/L_Leg
+        weight: 1
+      - path: Armature/Bone/Bottom/L_Pelvis/L_Limb/L_Leg/L_Leg_end
+        weight: 1
+      - path: Armature/Bone/Bottom/R_Pelvis
+        weight: 1
+      - path: Armature/Bone/Bottom/R_Pelvis/R_Limb
+        weight: 1
+      - path: Armature/Bone/Bottom/R_Pelvis/R_Limb/R_Leg
+        weight: 1
+      - path: Armature/Bone/Bottom/R_Pelvis/R_Limb/R_Leg/R_Leg_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/BackKnot
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/BackKnot/BackKnot_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/L_Ear_Connection
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/L_Ear_Connection/L_Ear_Base
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/L_Ear_Connection/L_Ear_Base/L_Ear_Top
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/L_Ear_Connection/L_Ear_Base/L_Ear_Top/L_Ear_Top_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/Mouth_Connector
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/Mouth_Connector/Stick
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/Mouth_Connector/Stick/Stick_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/R_Ear_Connection
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/R_Ear_Connection/R_Ear_Base
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/R_Ear_Connection/R_Ear_Base/R_Ear_Top
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/R_Ear_Connection/R_Ear_Base/R_Ear_Top/R_Ear_Top_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/L_Shoulder
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/L_Shoulder/L_Arm
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/L_Shoulder/L_Arm/L_Hand
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/L_Shoulder/L_Arm/L_Hand/L_Hand_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/R_Shoulder
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/R_Shoulder/R_Arm
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/R_Shoulder/R_Arm/R_Hand
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/R_Shoulder/R_Arm/R_Hand/R_Hand_end
+        weight: 1
+      - path: Armature/Bone/L_Leg_IK
+        weight: 1
+      - path: Armature/Bone/L_Leg_IK/L_Limb_Control
+        weight: 1
+      - path: Armature/Bone/L_Leg_IK/L_Limb_Control/L_Limb_Control_end
+        weight: 1
+      - path: Armature/Bone/R_Leg_IK
+        weight: 1
+      - path: Armature/Bone/R_Leg_IK/R_Limb_Control
+        weight: 1
+      - path: Armature/Bone/R_Leg_IK/R_Limb_Control/R_Limb_Control_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Walk_Run
+      takeName: Armature|Walk_Run
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 1stNPC
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bottom
+        weight: 1
+      - path: Armature/Bone/Bottom/Belly
+        weight: 1
+      - path: Armature/Bone/Bottom/Belly/Belly_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Butt
+        weight: 1
+      - path: Armature/Bone/Bottom/Butt/Butt_end
+        weight: 1
+      - path: Armature/Bone/Bottom/L_Pelvis
+        weight: 1
+      - path: Armature/Bone/Bottom/L_Pelvis/L_Limb
+        weight: 1
+      - path: Armature/Bone/Bottom/L_Pelvis/L_Limb/L_Leg
+        weight: 1
+      - path: Armature/Bone/Bottom/L_Pelvis/L_Limb/L_Leg/L_Leg_end
+        weight: 1
+      - path: Armature/Bone/Bottom/R_Pelvis
+        weight: 1
+      - path: Armature/Bone/Bottom/R_Pelvis/R_Limb
+        weight: 1
+      - path: Armature/Bone/Bottom/R_Pelvis/R_Limb/R_Leg
+        weight: 1
+      - path: Armature/Bone/Bottom/R_Pelvis/R_Limb/R_Leg/R_Leg_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/BackKnot
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/BackKnot/BackKnot_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/L_Ear_Connection
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/L_Ear_Connection/L_Ear_Base
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/L_Ear_Connection/L_Ear_Base/L_Ear_Top
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/L_Ear_Connection/L_Ear_Base/L_Ear_Top/L_Ear_Top_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/Mouth_Connector
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/Mouth_Connector/Stick
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/Mouth_Connector/Stick/Stick_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/R_Ear_Connection
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/R_Ear_Connection/R_Ear_Base
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/R_Ear_Connection/R_Ear_Base/R_Ear_Top
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/Head/R_Ear_Connection/R_Ear_Base/R_Ear_Top/R_Ear_Top_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/L_Shoulder
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/L_Shoulder/L_Arm
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/L_Shoulder/L_Arm/L_Hand
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/L_Shoulder/L_Arm/L_Hand/L_Hand_end
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/R_Shoulder
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/R_Shoulder/R_Arm
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/R_Shoulder/R_Arm/R_Hand
+        weight: 1
+      - path: Armature/Bone/Bottom/Spine1/Spine2/R_Shoulder/R_Arm/R_Hand/R_Hand_end
+        weight: 1
+      - path: Armature/Bone/L_Leg_IK
+        weight: 1
+      - path: Armature/Bone/L_Leg_IK/L_Limb_Control
+        weight: 1
+      - path: Armature/Bone/L_Leg_IK/L_Limb_Control/L_Limb_Control_end
+        weight: 1
+      - path: Armature/Bone/R_Leg_IK
+        weight: 1
+      - path: Armature/Bone/R_Leg_IK/R_Limb_Control
+        weight: 1
+      - path: Armature/Bone/R_Leg_IK/R_Limb_Control/R_Limb_Control_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -369,10 +863,10 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
