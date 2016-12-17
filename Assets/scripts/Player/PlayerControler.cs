@@ -34,17 +34,14 @@ public class PlayerControler : MonoBehaviour
 		rigidbodyPlayer = GetComponent<Rigidbody>();
 		if (!rigidbodyPlayer)
 		{
-			Debug.LogError("Plaey without rigidbody!");
+			Debug.LogError("Player without rigidbody!");
 		}
 	}
 
-	public void FixedUpdate()
+	void Update()
 	{
-
 		float h = Input.GetAxis("Horizontal");
-
-		AnimSetFloat(animRun, Mathf.Abs(h));
-		SetVelosity(speed  * h);
+		SetVelosity(speed * h);
 
 		if (h < 0 && direction == Directions.Right)
 		{
@@ -60,6 +57,19 @@ public class PlayerControler : MonoBehaviour
 			AnimSetTrigger("Jump");
 			AddForce(jumpSpeed);
 		}
+	}
+
+	void LateUpdate()
+	{
+
+	}
+
+	void FixedUpdate()
+	{
+		//Debug.Log(rigidbodyPlayer.velocity.x);
+		AnimSetFloat(animRun, Mathf.Abs(rigidbodyPlayer.velocity.x));
+
+		//h = rigidbodyPlayer.velocity.y;
 	}
 
 	bool IsGrounded()
@@ -97,5 +107,15 @@ public class PlayerControler : MonoBehaviour
 	{
 		direction = direction == Directions.Right ? Directions.Left : Directions.Right;
 		transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x) * (direction == Directions.Right ? 1 : -1), transform.localScale.y, transform.localScale.z);
+	}
+
+	public float Distance(Transform target)
+	{
+		return Distance(target.position);
+	}
+
+	public float Distance(Vector3 target)
+	{
+		return Vector3.Distance(transform.position, target);
 	}
 }
