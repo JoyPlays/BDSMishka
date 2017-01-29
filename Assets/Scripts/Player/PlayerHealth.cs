@@ -10,17 +10,15 @@ public class PlayerHealth
 
     private float baseHealth;
     private float onePercentOfBaseHealth;
-
     private float totalHealth = 0;
     private float currentHealth;
-
     private float skillsBonusPercent = 0;
     private float artifactsBonusPercent = 0;
-
-    private Timer restoreTimer;
-
-
+    private readonly Timer restoreTimer;
     public bool IsAlive;
+
+    public delegate void PlayerHealthChangeDelegate();
+    public event PlayerHealthChangeDelegate OnPlayerHealthChange = delegate { };
 
 
     #region Properties
@@ -37,6 +35,7 @@ public class PlayerHealth
         {
             skillsBonusPercent = value;
             totalHealth = baseHealth + SkillBonus + ArtifactBonus;
+            OnPlayerHealthChange.Invoke();
         }
     }
 
@@ -47,6 +46,7 @@ public class PlayerHealth
         {
             artifactsBonusPercent = value;
             totalHealth = Convert.ToInt32(baseHealth + SkillBonus + ArtifactBonus);
+            OnPlayerHealthChange.Invoke();
         }
     }
 
@@ -60,6 +60,7 @@ public class PlayerHealth
         currentHealth = totalHealth;
         restoreTimer = new Timer(The.settings.HealthRestoreTickTime) {AutoReset = true, Enabled = true};
         restoreTimer.Elapsed += Regenerate;
+        IsAlive = true;
     }
 
     #endregion
@@ -71,6 +72,7 @@ public class PlayerHealth
         baseHealth = health;
         onePercentOfBaseHealth = baseHealth / 100;
         totalHealth = Convert.ToInt32(baseHealth + SkillBonus + ArtifactBonus);
+        OnPlayerHealthChange.Invoke();
     }
 
     public void IncreaseBaseHealth(float increasePercent)
@@ -78,6 +80,7 @@ public class PlayerHealth
         baseHealth = Convert.ToInt32(increasePercent * onePercentOfBaseHealth);
         onePercentOfBaseHealth = baseHealth / 100;
         totalHealth = Convert.ToInt32(baseHealth + SkillBonus + ArtifactBonus);
+        OnPlayerHealthChange.Invoke();
     }
 
     public float GetTotalHealth()
@@ -97,11 +100,13 @@ public class PlayerHealth
             currentHealth = 0;
             IsAlive = false;
         }
+        OnPlayerHealthChange.Invoke();
     }
 
     public void ResetHealth()
     {
         currentHealth = totalHealth;
+        OnPlayerHealthChange.Invoke();
     }
 
     public void AddHealth(float health)
@@ -112,6 +117,7 @@ public class PlayerHealth
             currentHealth = totalHealth;
             StopRegeneration();
         }
+        OnPlayerHealthChange.Invoke();
     }
 
     public void Regenerate(object sender, ElapsedEventArgs e)

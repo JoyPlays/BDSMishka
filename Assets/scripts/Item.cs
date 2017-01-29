@@ -8,7 +8,7 @@ public class Item : MonoBehaviour
 		if (other.gameObject.GetComponent<PlayerControler>())
 		{
 			PlayerControler.Lives++;
-			GameUI.UpdateUI();
+			//GameUI.UpdateUI();
 			Destroy(gameObject);
 		}
 	}

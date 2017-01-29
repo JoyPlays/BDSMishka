@@ -5,25 +5,14 @@ using UnityEngine.UI;
 public class GameUI : MonoBehaviour
 {
 
-	private static GameUI instance = null;
-	public static GameUI Instance
-	{
-		get { return instance; }
-	}
-
-	public Text livesText;
-
-	internal static void UpdateUI()
-	{
-		if (!instance) return;
-	
-		if (instance.livesText) instance.livesText.text = string.Format("Lives: {0}", PlayerControler.Lives);
-
-	}
+    public GameObject healthUIPrefab;
+    public HealthUI HealthUI;
 
 	void Awake()
 	{
-		instance = this;
+	    The.GameUI = this;
+	    GameObject health = Instantiate(healthUIPrefab, this.transform, false);
+	    HealthUI = health.GetComponent<HealthUI>();
 	}
 
 }

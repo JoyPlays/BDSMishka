@@ -9,6 +9,6 @@ public class Settings {
     public int PlayerBaseHealth = 100;
     public int HealthRestoreTickTime = 10000;
     public int HealthRestorePerTick = 3;
-
+    public int PlayerLifes = 3;
 
 }
