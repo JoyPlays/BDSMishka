@@ -58,7 +58,7 @@ public class PlayerHealth
     {
         SetBaseHealth(The.settings.PlayerBaseHealth);
         currentHealth = totalHealth;
-        restoreTimer = new Timer(The.settings.HealthRestoreTickTime) {AutoReset = true, Enabled = true};
+        restoreTimer = new Timer(The.settings.HealthRestoreTickTime) {AutoReset = true};
         restoreTimer.Elapsed += Regenerate;
         IsAlive = true;
     }
@@ -99,6 +99,7 @@ public class PlayerHealth
         {
             currentHealth = 0;
             IsAlive = false;
+            Debug.Log("Player just died!!!");
         }
         OnPlayerHealthChange.Invoke();
     }
@@ -127,11 +128,13 @@ public class PlayerHealth
 
     public void StartRegeneration()
     {
+        restoreTimer.Enabled = true;
         restoreTimer.Start();
     }
 
     public void StopRegeneration()
     {
+        restoreTimer.Enabled = false;
         restoreTimer.Stop();
     }
     #endregion

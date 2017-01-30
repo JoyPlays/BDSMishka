@@ -5,10 +5,9 @@ public class Item : MonoBehaviour
 {
 	public void OnTriggerEnter(Collider other)
 	{
-		if (other.gameObject.GetComponent<PlayerControler>())
+		if (other.gameObject.GetComponent<Player>())
 		{
-			PlayerControler.Lives++;
-			//GameUI.UpdateUI();
+			Debug.Log("Player Picked up an item");
 			Destroy(gameObject);
 		}
 	}

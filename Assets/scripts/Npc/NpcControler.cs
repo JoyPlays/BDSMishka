@@ -24,6 +24,8 @@ public class NpcControler : MonoBehaviour
 	public float AttackDistance = 3;
 	[Range(0, 5)]
 	public float AttackCooldown = 2;
+    [Range(0, 30)]
+    public float AttackDamage = 10;
 
 	public string AttackAnim;
 
@@ -31,12 +33,12 @@ public class NpcControler : MonoBehaviour
 
 
 
-	private PlayerControler player;
+	private Player player;
 	private float attacking;
 
 	void Start()
 	{
-		player = FindObjectOfType<PlayerControler>();
+		player = FindObjectOfType<Player>();
 	}
 
 	void Update()
@@ -44,12 +46,12 @@ public class NpcControler : MonoBehaviour
 		if (State == NpcState.Idle)
 		{
 
-			if (player.Distance(transform) <= RadarDistance)
+			if (player.Distance(transform) <= RadarDistance && The.Player.Health.IsAlive)
 			{
 				State = NpcState.Attack;
 				Waypoint.Stop();
 
-				Debug.Log("I find player");
+				Debug.Log("Enemy: I find player");
 			}
 		}
 
@@ -60,7 +62,7 @@ public class NpcControler : MonoBehaviour
 			{
 				State = NpcState.Idle;
 				Waypoint.Reset();
-				Debug.Log("Lost enemy");
+				Debug.Log("Enemy: Lost enemy");
 				return;
 			}
 
@@ -69,9 +71,18 @@ public class NpcControler : MonoBehaviour
 			{
 				if (player.Distance(transform) < AttackDistance)
 				{
-					animator.SetTrigger(AttackAnim);
-					attacking = AttackCooldown;
-					return;
+				    if (The.Player.Health.IsAlive)
+				    {
+				        Debug.Log("Enemy: Attacking");
+				        animator.SetTrigger(AttackAnim);
+				        The.Player.Health.TakeDamage(AttackDamage);
+				        attacking = AttackCooldown;
+				    }
+				    else
+				    {
+				        State = NpcState.Idle;
+				    }
+				    return;
 				}
 			}
 			else
