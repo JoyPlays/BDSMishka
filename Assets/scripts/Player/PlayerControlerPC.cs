@@ -53,6 +53,7 @@ public class PlayerControlerPC : MonoBehaviour
             myVector = groundedVelocity + input * AerialSpeed;
         }
 
+        myVector = Vector3.ClampMagnitude(myVector, Speed);
         myVector *= Time.deltaTime;
 
 
@@ -61,7 +62,9 @@ public class PlayerControlerPC : MonoBehaviour
         {
             if (onWall)
             {
-                groundedVelocity = Vector3.Reflect(groundedVelocity, normal);
+                Vector3 reflection = Vector3.Reflect(velocity, normal);
+                Vector3 projected = Vector3.ProjectOnPlane(reflection, Vector3.up);
+                groundedVelocity = projected.normalized * Speed + normal * AerialSpeed;
             }
             if (canJump)
             {
