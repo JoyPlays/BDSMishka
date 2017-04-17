@@ -16,7 +16,7 @@ public class CameraControler : MonoBehaviour
 		offset = transform.position - target.position;
 	}
 
-	public void FixedUpdate()
+	void Update()
 	{
 		Vector3 targetPosition = target.position + offset;
 		transform.position = Vector3.Lerp(transform.position, targetPosition, smooth * Time.deltaTime);
