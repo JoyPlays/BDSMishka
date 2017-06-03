@@ -1,0 +1,348 @@
+fileFormatVersion: 2
+guid: 7cc09903aaf906c40a4f0dfeb8b7eac0
+timeCreated: 1496500313
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Flying_Dildo_GEO
+    100004: Flying_Dildo_SKEL
+    100006: Head
+    100008: Head.001
+    100010: Head.002
+    100012: Head.002_end
+    100014: Head_IK
+    100016: Head_IK_end
+    100018: L_Wing
+    100020: L_Wing.001
+    100022: L_Wing.002
+    100024: L_Wing.003
+    100026: L_Wing.004
+    100028: L_Wing.004_end
+    100030: L_Wing_IK
+    100032: L_Wing_IK_end
+    100034: R_Wing
+    100036: R_Wing.001
+    100038: R_Wing.002
+    100040: R_Wing.003
+    100042: R_Wing.004
+    100044: R_Wing.004_end
+    100046: R_Wing_IK
+    100048: R_Wing_IK_end
+    100050: Root
+    100052: Spine
+    100054: Spine.001
+    100056: Spine.002
+    100058: Tail
+    100060: Tail1
+    100062: Tail2
+    100064: Tail2_end
+    100066: Tail_IK
+    100068: Tail_IK_end
+    400000: //RootNode
+    400002: Flying_Dildo_GEO
+    400004: Flying_Dildo_SKEL
+    400006: Head
+    400008: Head.001
+    400010: Head.002
+    400012: Head.002_end
+    400014: Head_IK
+    400016: Head_IK_end
+    400018: L_Wing
+    400020: L_Wing.001
+    400022: L_Wing.002
+    400024: L_Wing.003
+    400026: L_Wing.004
+    400028: L_Wing.004_end
+    400030: L_Wing_IK
+    400032: L_Wing_IK_end
+    400034: R_Wing
+    400036: R_Wing.001
+    400038: R_Wing.002
+    400040: R_Wing.003
+    400042: R_Wing.004
+    400044: R_Wing.004_end
+    400046: R_Wing_IK
+    400048: R_Wing_IK_end
+    400050: Root
+    400052: Spine
+    400054: Spine.001
+    400056: Spine.002
+    400058: Tail
+    400060: Tail1
+    400062: Tail2
+    400064: Tail2_end
+    400066: Tail_IK
+    400068: Tail_IK_end
+    4300000: Flying_Dildo_GEO
+    7400000: Flying_Dildo_SKEL|Fight
+    7400002: Flying_Dildo_SKEL|Fly
+    9500000: //RootNode
+    13700000: Flying_Dildo_GEO
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Flying_Dildo_SKEL|Fight
+      takeName: Flying_Dildo_SKEL|Fight
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Flying_Dildo_GEO
+        weight: 1
+      - path: Flying_Dildo_SKEL
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Head_IK
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Head_IK/Head_IK_end
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/L_Wing_IK
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/L_Wing_IK/L_Wing_IK_end
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/R_Wing_IK
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/R_Wing_IK/R_Wing_IK_end
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/L_Wing
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/L_Wing/L_Wing.001
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/L_Wing/L_Wing.001/L_Wing.002
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/L_Wing/L_Wing.001/L_Wing.002/L_Wing.003
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/L_Wing/L_Wing.001/L_Wing.002/L_Wing.003/L_Wing.004
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/L_Wing/L_Wing.001/L_Wing.002/L_Wing.003/L_Wing.004/L_Wing.004_end
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/R_Wing
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/R_Wing/R_Wing.001
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/R_Wing/R_Wing.001/R_Wing.002
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/R_Wing/R_Wing.001/R_Wing.002/R_Wing.003
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/R_Wing/R_Wing.001/R_Wing.002/R_Wing.003/R_Wing.004
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/R_Wing/R_Wing.001/R_Wing.002/R_Wing.003/R_Wing.004/R_Wing.004_end
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/Spine.001
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/Spine.001/Spine.002
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/Spine.001/Spine.002/Head
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/Spine.001/Spine.002/Head/Head.001
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/Spine.001/Spine.002/Head/Head.001/Head.002
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/Spine.001/Spine.002/Head/Head.001/Head.002/Head.002_end
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/Tail
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/Tail/Tail1
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/Tail/Tail1/Tail2
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/Tail/Tail1/Tail2/Tail2_end
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Tail_IK
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Tail_IK/Tail_IK_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Flying_Dildo_SKEL|Fly
+      takeName: Flying_Dildo_SKEL|Fly
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Flying_Dildo_GEO
+        weight: 1
+      - path: Flying_Dildo_SKEL
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Head_IK
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Head_IK/Head_IK_end
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/L_Wing_IK
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/L_Wing_IK/L_Wing_IK_end
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/R_Wing_IK
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/R_Wing_IK/R_Wing_IK_end
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/L_Wing
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/L_Wing/L_Wing.001
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/L_Wing/L_Wing.001/L_Wing.002
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/L_Wing/L_Wing.001/L_Wing.002/L_Wing.003
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/L_Wing/L_Wing.001/L_Wing.002/L_Wing.003/L_Wing.004
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/L_Wing/L_Wing.001/L_Wing.002/L_Wing.003/L_Wing.004/L_Wing.004_end
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/R_Wing
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/R_Wing/R_Wing.001
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/R_Wing/R_Wing.001/R_Wing.002
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/R_Wing/R_Wing.001/R_Wing.002/R_Wing.003
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/R_Wing/R_Wing.001/R_Wing.002/R_Wing.003/R_Wing.004
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/R_Wing/R_Wing.001/R_Wing.002/R_Wing.003/R_Wing.004/R_Wing.004_end
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/Spine.001
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/Spine.001/Spine.002
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/Spine.001/Spine.002/Head
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/Spine.001/Spine.002/Head/Head.001
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/Spine.001/Spine.002/Head/Head.001/Head.002
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/Spine.001/Spine.002/Head/Head.001/Head.002/Head.002_end
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/Tail
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/Tail/Tail1
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/Tail/Tail1/Tail2
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Spine/Tail/Tail1/Tail2/Tail2_end
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Tail_IK
+        weight: 1
+      - path: Flying_Dildo_SKEL/Root/Tail_IK/Tail_IK_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.6
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
